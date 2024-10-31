@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Build Your Dream</title>
+    <title>Build Your Dream House</title>
     <!-- fav icons link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
     integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous"
@@ -37,38 +37,17 @@
      
 </head>
 <body class="font-manrope">
-    <header class="container mx-auto">
+    <header class="bg-[#F7F7F7]">
       <!-- navbar -->
-       <nav>
-        <div class="navbar bg-base-100">
+       <nav class="container mx-auto">
+        
+        <div class="navbar">
+          <div class="space-x-2">
+            <i class="fa-solid fa-arrow-right border-none rounded-full bg-primary p-2"></i>
+          <a class="text-2xl font-bold">Rinterio</a>
+          </div>
           <div class="navbar-start">
-            <div class="dropdown">
-              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-5 w-5"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor">
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M4 6h16M4 12h8m-8 6h16" />
-                </svg>
-              </div>
-              <ul
-                tabindex="0"
-                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                <li><a><span class="font-bold">Home</span></a></li>
-                <li><a>Services</a></li>
-                <li><a>Portfolio</a></li>
-                <li><a>Blogs</a></li>
-                <li><a>Cotact Us</a></li>
-              </ul>
-            </div>
-            <i class="fa-solid fa-arrow-right"></i>
-            <a class="text-2xl font-bold">Rinterio</a>
+           
           </div>
           <div class="navbar-center hidden lg:flex">
             <ul class="menu menu-horizontal px-1">
@@ -79,17 +58,57 @@
               <li><a>Cotact Us</a></li>
             </ul>
           </div>
-          <div class="navbar-end space-x-12">
+          <div class="navbar-end space-x-8 invisible md:visible">
             <div class="hidden lg:block lg:space-x-8">
-              <i class="fa-solid fa-arrow-right"></i>
-              <i class="fa-solid fa-cart-shopping"></i>
+              <i class="fa-solid fa-arrow-right border-none rounded-full bg-white text-black p-2"></i>
+              <i class="fa-solid fa-cart-shopping border-none rounded-full  bg-white text-black p-2"></i>
             </div>
             <a class="btn bg-primary font-bold">Book Consult
-              <i class="fa-solid fa-arrow-right"></i>
+              <i class="fa-solid fa-arrow-right text-white bg-black rounded-full p-2"></i>
             </a>
+          </div>
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+              <li><a><span class="font-bold">Home</span></a></li>
+              <li><a>Services</a></li>
+              <li><a>Portfolio</a></li>
+              <li><a>Blogs</a></li>
+              <li><a>Cotact Us</a></li>
+            </ul>
           </div>
         </div>
        </nav>
+       <div class="container mx-auto ">
+       
+        <div class="bg-[#F8F8F8] flex items-center justify-center flex-col gap-y-8">
+          <img src="./assets/banner.png" alt="">
+          <h1 class="text-5xl font-extrabold w-3/5 text-center">A barn house of this design has a
+            striking appearance</h1>
+            <p class=" w-3/5 text-center">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, 
+               and large windows that flood the space with natural light.
+              </p>
+              <button class="btn bg-secondary mb-8">
+                View Details
+                <i class="fa-solid fa-arrow-right border-none rounded-full bg-primary p-2"></i>
+              </button>
+        </div>
+       </div>
     </header>
     <main>
 
